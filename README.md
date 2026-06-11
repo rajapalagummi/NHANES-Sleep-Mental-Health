@@ -59,7 +59,6 @@ Modules used:
 
 ```bash
 # 1. Setup
-cd ~/Desktop/Projects/nhanes-sleep-mental-health
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
