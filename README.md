@@ -91,20 +91,6 @@ outputs/
 
 ---
 
-## Push to GitHub
 
-```bash
-git init
-echo "data/" >> .gitignore
-echo "venv/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-git add .
-git commit -m "NHANES sleep mental health biomarker analysis longitudinal CDC real data 11848 adults"
-git remote add origin https://github.com/rajapalagummi/NHANES-Sleep-Mental-Health.git
-git branch -M main
-git push -u origin main
-```
-
----
 
 *Built by Raja Palagummi | rajapalagummi.com | github.com/rajapalagummi*
